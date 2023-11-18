@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCalculator", "BasicCal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorPrivateAssembly", "CalculatorPrivateAssembly\CalculatorPrivateAssembly.csproj", "{D19CD035-D8DD-4BB1-9664-C0E2BE2EBE0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCalculator.Tests", "BasicCalculator.Tests\BasicCalculator.Tests.csproj", "{E6658242-0B8E-4027-B503-1CE97E428A9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D19CD035-D8DD-4BB1-9664-C0E2BE2EBE0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D19CD035-D8DD-4BB1-9664-C0E2BE2EBE0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D19CD035-D8DD-4BB1-9664-C0E2BE2EBE0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6658242-0B8E-4027-B503-1CE97E428A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6658242-0B8E-4027-B503-1CE97E428A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6658242-0B8E-4027-B503-1CE97E428A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6658242-0B8E-4027-B503-1CE97E428A9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

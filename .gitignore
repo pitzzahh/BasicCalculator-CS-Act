@@ -1,5 +1,7 @@
 BasicCalculator/bin
 BasicCalculator/obj
+BasicCalculator.Tests/bin
+BasicCalculator.Tests/obj
 CalculatorPrivateAssembly/bin
 CalculatorPrivateAssembly/obj
 CalculatorPrivateAssembly/CalculatorPrivateAssemblyKey.snk
