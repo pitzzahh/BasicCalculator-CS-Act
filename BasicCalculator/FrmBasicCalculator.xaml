@@ -1,0 +1,56 @@
+﻿<Window x:Class="BasicCalculator.FrmBasicCalculator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="FrmBasicCalculator"
+        Height="360"
+        Width="350"
+        MinHeight="360"
+        MinWidth="300">
+    <StackPanel Margin="10">
+        <TextBlock Text="Basic Calculator"
+                   Margin="0 10"
+                   FontSize="22" />
+        <TextBox
+            x:Name="FirstNumber"
+            FontSize="24"
+            Text="0"
+            FontWeight="Bold"
+            FlowDirection="RightToLeft" />
+
+        <ComboBox Width="50" FontSize="18" Margin="0 10" x:Name="Operation">
+            <!-- Set the items -->
+            <ComboBoxItem Content="+" />
+            <ComboBoxItem Content="-" />
+            <ComboBoxItem Content="*" />
+            <ComboBoxItem Content="/" />
+        </ComboBox>
+        <TextBox
+            x:Name="SecondNumber"
+            FontSize="24"
+            Text="0"
+            FontWeight="Bold"
+            FlowDirection="RightToLeft" />
+
+        <StackPanel Background="Black" Margin="0 20">
+            <Label Foreground="Green"
+                   FontSize="16"
+                   FontWeight="SemiBold"
+                   Content="Total" />
+            <Label
+                x:Name="Total"
+                Foreground="Green"
+                FontSize="18"
+                FontWeight="Bold"
+                Content="00000" />
+        </StackPanel>
+
+        <Button Content="Compute"
+                FontSize="17"
+                Width="100"
+                Click="OnCompute" />
+    </StackPanel>
+</Window>
