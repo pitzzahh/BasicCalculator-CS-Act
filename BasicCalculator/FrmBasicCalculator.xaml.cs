@@ -37,6 +37,12 @@ public partial class FrmBasicCalculator
                 MessageBoxImage.Error);
             return;
         }
+        
+        if(Operation.Text == "/" && SecondNumber.Text == "0")
+        {
+            Total.Content = "Cannot divide by zero.";
+            return;
+        }
 
         try
         {
